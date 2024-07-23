@@ -1,6 +1,5 @@
 import discogs_client, sqlite3, os, sys, re, time
 
-
 DISCOGS_API_KEY = str(os.getenv('DISCOGS_API_KEY')) # You can find this on discogs.com/settings/developers
 DB_NAME = "music.db" # Set the name of the database file
 
@@ -153,7 +152,6 @@ def connectDB(db_path):
         print("Database has been created.")
     print("Connected to database")
 
-
 def createIdListFile():
     try:
         with open("id_list", "x") as f:
@@ -167,7 +165,6 @@ createIdListFile()
 
 discogsConn = discogs_client.Client('ExampleApplication/0.1', user_token=DISCOGS_API_KEY)
 collection = discogsConn.identity()
-
 
 if len(sys.argv) == 2:
     if len(sys.argv[1]) > 35:
@@ -215,7 +212,6 @@ for url in urlList:
     except KeyboardInterrupt:
         print("Process interrupted.")
         break
-
 
 print(f"\nNumber of changes to the table -> {fileDB.total_changes}")
 fileDB.commit()

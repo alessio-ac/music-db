@@ -12,20 +12,13 @@ Incorrect > https://www.discogs.com/release/2428023-Dio-Holy-Diver
 ## Database example
 
 ```
-entityId  albumName                   artistName     releaseDate  subGenre           genre  owned  pformat  url                                                         
---------  --------------------------  -------------  -----------  -----------------  -----  -----  -------  ------------------------------------------------------------
-1         Rainbow Rising              Rainbow        1976         Classic Metal      Metal  0               https://www.discogs.com/master/40614-Blackmores-Rainbow-Rain
-                                                                                                            bow-Rising                                                  
-
-2         Black Sabbath               Black Sabbath  1970         Doom Metal         Metal  1      Vinyl    https://www.discogs.com/master/723-Black-Sabbath-Black-Sabba
-                                                                                                            th                                                          
-
-3         Painkiller                  Judas Priest   1990         Heavy Metal        Metal  0               https://www.discogs.com/master/26296-Judas-Priest-Painkiller
-
-4         Epicus Doomicus Metallicus  Candlemass     1986         Doom Metal         Metal  1      Vinyl    https://www.discogs.com/master/42704-Candlemass-Epicus-Doomi
-                                                                                                            cus-Metallicus                                              
-
-5         Vector                      Haken          2018         Progressive Metal  Metal  0               https://www.discogs.com/master/1442580-Haken-Vector         
+| entityId | albumName                  | artistName    | releaseDate | subGenre          | genre | owned | pformat | url                                                          |
+|----------|----------------------------|---------------|-------------|-------------------|-------|-------|---------|--------------------------------------------------------------|
+| 1        | Rainbow Rising             | Rainbow       | 1976        | Classic Metal     | Metal | 0     |         | https://www.discogs.com/master/40614-Blackmores-Rainbow-Rainbow-Rising |
+| 2        | Black Sabbath              | Black Sabbath | 1970        | Doom Metal        | Metal | 1     | Vinyl   | https://www.discogs.com/master/723-Black-Sabbath-Black-Sabbath |
+| 3        | Painkiller                 | Judas Priest  | 1990        | Heavy Metal       | Metal | 0     |         | https://www.discogs.com/master/26296-Judas-Priest-Painkiller |
+| 4        | Epicus Doomicus Metallicus | Candlemass    | 1986        | Doom Metal        | Metal | 1     | Vinyl   | https://www.discogs.com/master/42704-Candlemass-Epicus-Doomicus-Metallicus) |
+| 5        | Vector                     | Haken         | 2018        | Progressive Metal | Metal | 0     |         | https://www.discogs.com/master/1442580-Haken-Vector |
 ```
 
 ## Dependencies

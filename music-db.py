@@ -1,8 +1,8 @@
-import discogs_client, sqlite3, requests, os, sys, re, time
+import discogs_client, sqlite3, os, sys, re, time
 
 
 DISCOGS_API_KEY = str(os.getenv('DISCOGS_API_KEY')) # You can find this on discogs.com/settings/developers
-DB_NAME = "music2.db" # Set the name of the database file
+DB_NAME = "music.db" # Set the name of the database file
 
 def clear_line(n=1):
     LINE_UP = '\033[1A'

@@ -5,13 +5,9 @@ It is written with Linux in mind and might not work on Windows/Mac machines.
 
 The script only works with master Discogs links, not for single releases.
 
-Correct
+Correct > https://www.discogs.com/master/29124-Dio-Holy-Diver
 
-> https://www.discogs.com/master/29124-Dio-Holy-Diver
-
-Incorrect
-
-> https://www.discogs.com/release/2428023-Dio-Holy-Diver
+Incorrect > https://www.discogs.com/release/2428023-Dio-Holy-Diver
 
 ## Database example
 
